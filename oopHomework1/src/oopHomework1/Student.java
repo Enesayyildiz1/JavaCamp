@@ -1,27 +1,33 @@
 package oopHomework1;
 
-public class Student {
+public class Student extends User {
 	
 	
+	
+	String email;
+	String password;
 	
 	public  Student()
 	{
 		
 	}
 	
-	public Student(int id,String name,String lastName,String email,String password)
-	{
-		this.id=id;
-		this.name=name;
-		this.lastName=lastName;
-		this.email=email;		
-		this.password=password;
-		
+	
+
+	public String getEmail() {
+		return email;
 	}
-	int id;
-	String name;
-	String lastName;
-	String email;
-	String password;
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
 	
 }
