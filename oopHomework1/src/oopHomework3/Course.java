@@ -1,4 +1,4 @@
-package oopHomework1;
+package oopHomework3;
 
 public class Course {
 	
